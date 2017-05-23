@@ -13,6 +13,10 @@
 # Any code in the iPython notebook is meaningless from the testing 
 # perspective.
 # 
+# It is generally helpful to code in the iPython notebook and copy your final code 
+# to the python file for testing on the server, however, you can adopt any style 
+# of working that suits you.
+# 
 # With that, welcome to CS 6601: Artificial Intelligence.
 # 
 # You should ideally take no more than 15 minutes, to finish the 
