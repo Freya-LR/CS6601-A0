@@ -1,6 +1,6 @@
 # CS 6601: Artificial Intelligence - Assignment 0, Stochastic Grammar
 
-The instructions for the assignment can be found in the file `test_notebook.ipynb`. You will need to download iPython to view the file or you can view it here.
+The instructions for the assignment can be found in the file `test_notebook.ipynb`. You will need to download and [install](https://ipython.org/install.html) iPython to view the file or you can view it [here](https://github.gatech.edu/omscs6601/assignment_0/blob/master/test_notebook.ipynb).
 
 # Setup
 Clone this repository recursively:
