@@ -13,7 +13,7 @@ def is_export(cell):
 
 def notebook2scriptSingle(fname):
     "Finds cells starting with `#export` and puts them into a new module"
-    fname_out = 'submissions.py'
+    fname_out = 'submission.py'
     main_dic = json.load(open(fname,'r',encoding="utf-8"))
     code_cells = [c for c in main_dic['cells'] if is_export(c)]
     module = f'''
