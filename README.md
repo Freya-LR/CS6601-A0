@@ -1,72 +1,102 @@
-# CS 6601: Artificial Intelligence - Assignment 0, Stochastic Grammar
+# Assignment 0 - Python/Jupyter/Gradescope
 
-The instructions for the assignment can be found in the file `test_notebook.ipynb`. You will need to download and [install](https://ipython.org/install.html) iPython to view the file or you can view it [here](https://github.gatech.edu/omscs6601/assignment_0/blob/master/test_notebook.ipynb).
+This assignment is designed to help you prepare your local python environment, introduce you to jupyter notebooks and provide a refresher on python language. After following this README you will have a python environment ready and will be able to proceed with learning about jupyter notebooks in the `notebook.ipynb` (where you will make your first graded submission!). Let's get started!
 
-# Setup
-Clone this repository recursively:
-`git clone --recursive https://github.gatech.edu/omscs6601/assignment_0.git`
+### Table of Contents
+- [Get repository](#repo)
+- [Conda](#conda)
+- [Environment](#env)
+- [Packages](#pkg)
+- [Jupyter](#jupyter)
+- [Summary](#summary)
 
-(If your version of git does not support recurse clone, then clone without the option and run `git submodule init` and `git submodule update`).
+<a name="repo"/></a>
+## Get repository
 
-If you run across certificate authentication issues during the clone, set the git SSL Verify option to false: `git config --global http.sslVerify false`.
-
-# Python Dependencies
-
-The submission scripts depend on the presence of 2 python packages - `requests` and `future`. If you are missing either of these packages, install them from the online Python registries. The easiest way to do this is through pip:
-
-`pip install requests future`
-
-# Keeping your code upto date
-After the clone, we recommend creating a branch and developing your agents on that branch:
-
-`git checkout -b develop`
-
-(assuming develop is the name of your branch)
-
-Should the TAs need to push out an update to the assignment, commit (or stash if you are more comfortable with git) the changes that are unsaved in your repository:
-
-`git commit -am "<some funny message>"`
-
-Then update the master branch from remote:
-
-`git pull origin master`
-
-This updates your local copy of the master branch. Now try to merge the master branch into your development branch:
-
-`git merge master`
-
-(assuming that you are on your development branch)
-
-There are likely to be merge conflicts during this step. If so, first check what files are in conflict:
-
-`git status`
-
-The files in conflict are the ones that are "Not staged for commit". Open these files using your favourite editor and look for lines containing `<<<<` and `>>>>`. Resolve conflicts as seems best (ask a TA if you are confused!) and then save the file. Once you have resolved all conflicts, stage the files that were in conflict:
-
-`git add -A .`
-
-Finally, commit the new updates to your branch and continue developing:
-
-`git commit -am "<funny message vilifying Bonnie>"`
-
-# Submit your code
-To submit your code to have it evaluated for a grade, use `python submit.py assignment_2`.  You may submit as many times as you like.  The last submission before the deadline will be used to determine your grade.
-
-To add a data.pickle file to your submission (containing landmarks of the Atlanta map for improved tri-directional/custom_search), use `python submit.py assignment_2 --add-data`.
-
-A friendly reminder: please ensure that your submission is in `search_submission.py`. The submit script described automatically sends that file to the servers for processing.
-
-# Vagrant
-
-You have the option of using vagrant to make sure that your local code runs in the same environment as the servers on Bonnie (make sure you have [Vagrant](https://www.vagrantup.com/) and [Virtualbox](https://www.virtualbox.org/wiki/Downloads) installed).  To use this option run the following commands in the root directory of your assignment:
+First things first, let's pull this repository to your local machine:
 
 ```
-vagrant up --provider virtualbox
-vagrant ssh
+git clone https://github.gatech.edu/omscs6601/assignment_0.git
 ```
 
-Your code lives in the `/vagrant` folder within this virtual machine. Changes made to files in your assignment folder will automatically be reflected within the machine.
+Then come back to this README to continue with further setup.
 
-# Azure Notebooks
+<a name="conda"/></a>
+## Conda
 
-Azure has a service for creating and hosting your iPython notebooks. Find it [here](https://notebooks.azure.com/). You can even use your Georgia Tech credentials to sign in. 
+![Conda Logo](https://conda.io/en/latest/_images/conda_logo.svg)
+
+Conda is an open source package and environment management system. Conda quickly installs, runs and updates packages/libraries and easily creates, saves, loads, and switches between environments on your local computer.
+
+Please download [Miniconda (Python3.7)](https://docs.conda.io/en/latest/miniconda.html) and install it on your local machine. You can access conda via the console, to make sure it's properly installed please run `conda -V` to display the version.
+
+On Windows, to access `conda` via the console please use "Anaconda Prompt" or "Anaconda Powershell Prompt" instead of "Command Prompt".
+
+<a name="env"/></a>
+## Environment
+
+Environments are used to keep different python versions and packages isolated from each other, generally each project/application will have an independent python environment. For example, we will be using Python 3.7 and packages like numpy, networkx etc, and we want them to be isolated from any other python projects you might have. 
+
+To create a new environment simply run:
+
+```
+conda create --name ai_env python=3.7 -y
+```
+
+Once it's created you can activate it by running:
+
+```
+conda activate ai_env
+```
+
+The environment is not attached to any specific folder, you can freely navigate to different directories while it's activated. If you want to change the environment you can deactivate it using `conda deactivate` and then activate another env. To see the list of all environments you have on your machine you can run `conda env list`.
+
+<a name="pkg"/></a>
+## Packages
+
+![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+
+We will be using multiple python packages throughtout this class, here are some of them:
+
+* **jupyter** - interactive notebook (you will learn more about them soon)
+* **numpy** - a package for scientific computing (multi-dimensional array manipulation)
+* **matplotlib** - a plotting library
+* **networkx** - a package for manipulating networks/graphs
+* **pandas** - a package for data analysis
+* **pgmpy** - library for probabilistic graphical models 
+
+You can see the complete list of packages and required versions in [./requirements.txt](./requirements.txt).
+
+We can install all these packages using command ``pip install -r requirements.txt``. Please navigate to `assignment_0/` directory, activate your environment (`conda activate ai_env`), then run:
+
+```
+pip install -r requirements.txt
+```
+
+Once installed, you can run `pip freeze` to see the list of all of the packages installed in your `ai_env` environment.
+
+<a name="jupyter"/></a>
+## Jupyter
+
+![Jupyter Logo](https://jupyter.org/assets/nav_logo.svg)
+
+Now that you have setup the environment it's time to learn more about the jupyter notebooks. 
+
+We have already installed jupyter, to open it up you can run:
+
+```
+jupyter notebook
+```
+
+It will start a python kernel which you can assess via [https://localhost:8888](https://localhost:8888/) in your browser, for the rest of the assignment proceed to `notebook.ipynb`.
+
+<a name="summary"/></a>
+## Summary
+
+You have installed conda package and environment manager, created a python environment and installed all the necessary packages.
+
+Please always remember to run:
+```
+conda activate ai_env
+```
+to activate your environment before you start working on the assignment.
