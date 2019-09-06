@@ -6,3 +6,4 @@ networkx==2.3
 pandas==0.25.0
 pgmpy==0.1.7
 open3d-python==0.7.0.0
+ipywidgets==0.7.5
