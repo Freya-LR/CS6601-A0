@@ -21,6 +21,43 @@ git clone https://github.gatech.edu/omscs6601/assignment_0.git
 
 Then come back to this README to continue with further setup.
 
+<a name="fork-instructions"/></a>
+## Instructions to create a private forked repository for assignments
+
+The assignments you would be working on throughout this semester will potentially require multiple revisions. A good way to achieve this is using your own private repo to backup your assignments at various stages of completion. Please remember that your assignment repository should be private and only accessible to yourself so that you do not accidentally violate the OSI policy.<br>
+
+You can use the following steps to create a private repository for assignment 0. Please replace the A0 url with the future assignments' URL to repeat this for the future assignments.<br>
+
+* Login to github.gatech.edu and create a private repo named : YOUR_REPO. Double check that the repo is private, otherwise you may violate the OSI policy
+
+* Get the class repo<br> ``git clone --bare https://github.gatech.edu/omscs6601/assignment_0.git``
+
+* Mirror this to your private repo <br>
+```
+cd assignments.git
+git push --mirror https://github.gatech.edu/your_gatech_id/YOUR_REPO
+```
+
+* You can now delete the directory ``assignments`` if you wish
+
+* Now clone your private repo on your local system<br> ``git clone https://github.gatech.edu/your_gatech_id/YOUR_REPO``
+
+* Next <br>
+```
+cd YOUR_REPO
+git remote add upstream https://github.gatech.edu/omscs6601/assignment_0.git
+```
+You check if the remote branch has beena added using ``git remote -v``
+
+* Now you can use it like this <br>
+```
+git pull upstream master # the original repo 
+git push origin master # your repo 
+```
+If you do not specify the remote, it will default to the origin (your repo)
+
+* If you are scared of pushing to upstream you can disable pushing to upstream using<br> ``git remote set-url --push upstream PUSH_DISABLED``
+
 <a name="conda"/></a>
 ## Conda
 
