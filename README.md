@@ -34,7 +34,7 @@ You can use the following steps to create a private repository for assignment 0.
 
 * Mirror this to your private repo <br>
 ```
-cd assignments.git
+cd assignment_0.git
 git push --mirror https://github.gatech.edu/your_gatech_id/YOUR_REPO
 ```
 
