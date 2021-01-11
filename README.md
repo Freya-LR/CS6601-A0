@@ -65,7 +65,7 @@ If you do not specify the remote, it will default to the origin (your repo)
 
 Conda is an open source package and environment management system. Conda quickly installs, runs and updates packages/libraries and easily creates, saves, loads, and switches between environments on your local computer.
 
-Please download [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and install it on your local machine. Although we require Python 3.7 for this course, it does not matter which version of Miniconda you download as this will only affect the python version of the base environment and the default python version used when creating new environments. You can override this default by specifying the python version when creating new environments. You can access conda via the console to make sure it's properly installed. For instance, you can run `conda -V` to display the version.
+Please download [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and install it on your local machine. Although we require Python 3.7 for this course, you should install the version of Miniconda for any Python 3 version (e.g. Python 3.x). You can override this default by specifying the python version as 3.7 when creating the environment you will be working in for this course. You can access conda via the console to make sure it's properly installed. For instance, you can run `conda -V` to display the version.
 
 On Windows, to access `conda` via the console please use "Anaconda Prompt" or "Anaconda Powershell Prompt" instead of "Command Prompt".
 
@@ -112,7 +112,7 @@ pip install -r requirements.txt
 
 Once installed, you can run `pip freeze` to see the list of all of the packages installed in your `ai_env` environment.
 
-> **Note:** If you are on Windows, students in the past have commonly reported an error during package installation that resembles the error in this [Github post](https://github.com/pytorch/pytorch/issues/34798). To fix this issue, head over to the [PyTorch site](https://pytorch.org) and follow the instructions to install torch manually in `ai_env`.
+> **Note:** If you are on Windows, students in the past have commonly reported an error during package installation that resembles the error in this [Github post](https://github.com/pytorch/pytorch/issues/34798). To fix this issue, head over to the [PyTorch site](https://pytorch.org) and follow the instructions to install torch manually in `ai_env`. If this does not work, you may also instead try running `conda install -c ankurankan pgmpy=0.1.10`. After trying one of the previous suggestions and getting a successful install, try `pip install -r requirements.txt` again.
 
 
 <a name="jupyter"/></a>
