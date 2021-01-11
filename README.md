@@ -65,7 +65,7 @@ If you do not specify the remote, it will default to the origin (your repo)
 
 Conda is an open source package and environment management system. Conda quickly installs, runs and updates packages/libraries and easily creates, saves, loads, and switches between environments on your local computer.
 
-Please download [Miniconda (Python3.7)](https://docs.conda.io/en/latest/miniconda.html) and install it on your local machine. You can access conda via the console, to make sure it's properly installed please run `conda -V` to display the version.
+Please download [Miniconda (Python3.x)](https://docs.conda.io/en/latest/miniconda.html) and install it on your local machine. Note that it does not matter which version of Miniconda you download, as this will only affect the base environment. We will be creating a separate environment, for which we can specify the version of Python we require in the environment creation command itself. You can access conda via the console to make sure it's properly installed. For instance, you can run `conda -V` to display the version.
 
 On Windows, to access `conda` via the console please use "Anaconda Prompt" or "Anaconda Powershell Prompt" instead of "Command Prompt".
 
