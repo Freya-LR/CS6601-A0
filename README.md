@@ -38,7 +38,7 @@ cd assignment_0.git
 git push --mirror https://github.gatech.edu/your_gatech_id/YOUR_REPO
 ```
 
-* You can now delete the directory ``assignments`` if you wish
+* You can now delete the ``assignment_0.git`` repo cloned two steps ago if you wish.
 
 * Now clone your private repo on your local system<br> ``git clone https://github.gatech.edu/your_gatech_id/YOUR_REPO``
 
