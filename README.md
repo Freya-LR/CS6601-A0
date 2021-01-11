@@ -112,6 +112,9 @@ pip install -r requirements.txt
 
 Once installed, you can run `pip freeze` to see the list of all of the packages installed in your `ai_env` environment.
 
+> **Note:** If you are on Windows, students in the past have commonly reported an error during package installation that resembles the error in this [Github post](https://github.com/pytorch/pytorch/issues/34798). You may be able to fix this issue, by heading over to the [PyTorch site](https://pytorch.org) and following the instructions to install torch manually in `ai_env`.
+
+
 <a name="jupyter"/></a>
 ## Jupyter
 
