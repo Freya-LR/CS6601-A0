@@ -24,7 +24,7 @@ Then come back to this README to continue with further setup.
 <a name="fork-instructions"/></a>
 ## Instructions to create a private forked repository for assignments
 
-The assignments you would be working on throughout this semester will potentially require multiple revisions. A good way to achieve this is using your own private repo to backup your assignments at various stages of completion. Please remember that your assignment repository should be private and only accessible to yourself so that you do not accidentally violate the OSI policy.<br>
+The assignments you would be working on throughout this semester will potentially require multiple revisions. A good way to track these revisions is by using your own private repo to backup your assignments at various stages of completion. Please remember that your assignment repository should be private and only accessible to yourself so that you do not accidentally violate the OSI policy.<br>
 
 You can use the following steps to create a private repository for assignment 0. Please replace the A0 url with the future assignments' URL to repeat this for the future assignments.<br>
 
@@ -86,14 +86,14 @@ Once it's created you can activate it by running:
 conda activate ai_env
 ```
 
-The environment is not attached to any specific folder, you can freely navigate to different directories while it's activated. If you want to change the environment you can deactivate it using `conda deactivate` and then activate another env. To see the list of all environments you have on your machine you can run `conda env list`.
+The environment is not attached to any specific folder, and you can freely navigate to different directories while it's activated. If you want to change the environment you can deactivate it using `conda deactivate` and then activate another env. To see the list of all environments you have on your machine you can run `conda env list`.
 
 <a name="pkg"/></a>
 ## Packages
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
-We will be using multiple python packages throughout this class, here are some of them:
+We will be using multiple python packages throughout this class. Here are some of them:
 
 * **jupyter** - interactive notebook (you will learn more about them soon)
 * **numpy** - a package for scientific computing (multi-dimensional array manipulation)
@@ -104,7 +104,7 @@ We will be using multiple python packages throughout this class, here are some o
 
 You can see the complete list of packages and required versions in [./requirements.txt](./requirements.txt).
 
-We can install all these packages using command ``pip install -r requirements.txt``. Please navigate to `assignment_0/` directory, activate your environment (`conda activate ai_env`), then run:
+We can install all these packages using command ``pip install -r requirements.txt``. Please navigate to the `assignment_0/` directory, activate your environment (`conda activate ai_env`), then run:
 
 ```
 pip install -r requirements.txt
@@ -122,21 +122,21 @@ Once installed, you can run `pip freeze` to see the list of all of the packages 
 
 Now that you have set up the environment it's time to learn more about the jupyter notebooks. 
 
-We have already installed jupyter, to open it up you can run:
+We have already installed jupyter. To open it up you can run:
 
 ```
 jupyter notebook
 ```
 
-It will start a python kernel which you can access via [https://localhost:8888](https://localhost:8888/) in your browser, for the rest of the assignment proceed to `notebook.ipynb`.
+It will start a python kernel which you can access via [https://localhost:8888](https://localhost:8888/) in your browser. For the rest of the assignment proceed to `notebook.ipynb`.
 
 <a name="summary"/></a>
 ## Summary
 
-You have installed conda package and environment manager, created a python environment and installed all the necessary packages.
+You have now installed conda package and environment manager, created a python environment and installed all the necessary packages.
 
 Please always remember to run:
 ```
 conda activate ai_env
 ```
-to activate your environment before you start working on the assignment.
+to activate your environment before you start working on your assignments.
