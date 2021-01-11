@@ -47,7 +47,7 @@ git push --mirror https://github.gatech.edu/your_gatech_id/YOUR_REPO
 cd YOUR_REPO
 git remote add upstream https://github.gatech.edu/omscs6601/assignment_0.git
 ```
-You check if the remote branch has beena added using ``git remote -v``
+You check if the remote branch has been added using ``git remote -v``
 
 * Now you can use it like this <br>
 ```
@@ -93,7 +93,7 @@ The environment is not attached to any specific folder, you can freely navigate 
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
-We will be using multiple python packages throughtout this class, here are some of them:
+We will be using multiple python packages throughout this class, here are some of them:
 
 * **jupyter** - interactive notebook (you will learn more about them soon)
 * **numpy** - a package for scientific computing (multi-dimensional array manipulation)
@@ -117,7 +117,7 @@ Once installed, you can run `pip freeze` to see the list of all of the packages 
 
 ![Jupyter Logo](https://jupyter.org/assets/nav_logo.svg)
 
-Now that you have setup the environment it's time to learn more about the jupyter notebooks. 
+Now that you have set up the environment it's time to learn more about the jupyter notebooks. 
 
 We have already installed jupyter, to open it up you can run:
 
@@ -125,7 +125,7 @@ We have already installed jupyter, to open it up you can run:
 jupyter notebook
 ```
 
-It will start a python kernel which you can assess via [https://localhost:8888](https://localhost:8888/) in your browser, for the rest of the assignment proceed to `notebook.ipynb`.
+It will start a python kernel which you can access via [https://localhost:8888](https://localhost:8888/) in your browser, for the rest of the assignment proceed to `notebook.ipynb`.
 
 <a name="summary"/></a>
 ## Summary
