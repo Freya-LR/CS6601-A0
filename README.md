@@ -2,7 +2,8 @@
 
 This assignment is designed to help you get comfortable with your local python environment and Git, introduce you to jupyter notebooks and provide a refresher on the python language. After following this you will proceed with learning about jupyter notebooks in the `notebook.ipynb` (where you will make your first graded submission!). Let's get started!
 
-If you have not setup your Python environment, STOP and complete the environment setup at https://github.gatech.edu/omscs6601/env_setup. Then return here.
+If you have not setup your Python environment, ####STOP...
+Complete the environment setup at https://github.gatech.edu/omscs6601/env_setup. Then return here.
 
 ### Table of Contents
 - [Get repository](#repo)
@@ -92,29 +93,18 @@ Once installed, you can run `pip freeze` to see the list of all of the packages 
 
 > **Note:** If you are on Windows, students in the past have commonly reported an error during package installation that resembles the error in this [Github post](https://github.com/pytorch/pytorch/issues/34798). To fix this issue, head over to the [PyTorch site](https://pytorch.org) and follow the instructions to install torch manually in `ai_env`. If this does not work, you may also instead try running `conda install -c ankurankan pgmpy=0.1.10`. After trying one of the previous suggestions and getting a successful install, try `pip install -r requirements.txt` again.
 
-
 <a name="jupyter"/></a>
 ## Jupyter
+---------------------------------------------------------
 
-![Jupyter Logo](https://jupyter.org/assets/nav_logo.svg)
+Sometimes the assignment repositories will come with a Jupyter Notebook which will contain the instructions for completing the assignment and the code cells that you need to fill out. To open Jupyter Notebook, navigate to the file directory containing the `notebook.ipynb` file, make sure your conda environment is running and that the libraries have already been installed, and then run the below command:
 
-Now that you have set up the environment it's time to learn more about the jupyter notebooks. 
+    (ai_env) $ jupyter notebook
 
-We have already installed jupyter. To open it up you can run:
+This should automatically open the `notebook.ipynb` as a Jupyter Notebook. If it doesn't automatically open, you can access the Jupyter Notebook at [http://localhost:8888](http://localhost:8888/) in your browser.
 
-```
-jupyter notebook
-```
+Assignment 0
+---------------------------------------------------------
 
-It will start a python kernel which you can access via [https://localhost:8888](https://localhost:8888/) in your browser. For the rest of the assignment proceed to `notebook.ipynb`.
+Your first assignment in this course is to setup your Python environment following the above instructions and then follow the tutorial in the provided Jupyter Notebook. Upon completion of the tutorial, you will have generated a `submission.py` file which you will then upload to [Gradescope](https://www.gradescope.com). This submission is worth **1 point of your final grade**. Good luck!
 
-<a name="summary"/></a>
-## Summary
-
-You have now installed conda package and environment manager, created a python environment and installed all the necessary packages.
-
-Please always remember to run:
-```
-conda activate ai_env
-```
-to activate your environment before you start working on your assignments.
