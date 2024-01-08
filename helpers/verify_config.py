@@ -6,7 +6,7 @@ def check_python_version():
     assert python_version()[:3] == '3.9', 'Make sure you use python version == 3.9'
 
 def check_env_setup():
-    dependencies = open("../requirements.txt").readlines()
+    dependencies = open("./requirements.txt").readlines()
     for line in dependencies:
         pkg_info = line.split("==")
         if len(pkg_info) < 2 or pkg_info[0][0] == "#":
