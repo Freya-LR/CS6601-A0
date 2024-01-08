@@ -1,17 +1,20 @@
-# Assignment 0 - Python/Jupyter/Gradescope
+# Assignment 0 - Python/Git/Jupyter/Gradescope
 
-This assignment is designed to help you prepare your local python environment, introduce you to jupyter notebooks and provide a refresher on python language. After following this README you will have a python environment ready and will be able to proceed with learning about jupyter notebooks in the `notebook.ipynb` (where you will make your first graded submission!). Let's get started!
+This assignment is designed to help you get comfortable with your local python environment and Git, introduce you to jupyter notebooks and provide a refresher on the python language. After following this you will proceed with learning about jupyter notebooks in the `notebook.ipynb` (where you will make your first graded submission!). Let's get started!
+
+If you have not setup your Python environment, STOP and complete the environment setup at https://github.gatech.edu/omscs6601/env_setup. Then return here.
 
 ### Table of Contents
 - [Get repository](#repo)
-- [Conda](#conda)
-- [Environment](#env)
 - [Packages](#pkg)
 - [Jupyter](#jupyter)
 - [Summary](#summary)
 
 <a name="repo"/></a>
-## Get repository
+## Setup a local repository
+Georgia Tech uses github and you have the ability to build a repository to store your assignments at (https://github.gatech.edu/gatech_id) </br>
+[Georgia Techs Github](https://github.gatech.edu/)</br>
+[Help on GitHub](https://docs.github.com/en/get-started/quickstart)</br>
 
 First things first, let's pull this repository to your local machine:
 
@@ -19,12 +22,14 @@ First things first, let's pull this repository to your local machine:
 git clone https://github.gatech.edu/omscs6601/assignment_0.git
 ```
 
-Then come back to this README to continue with further setup.
+NOTE: For the rest of your assignments you will be assigned a private repository for each assignment. Beginning with assignment 1 you must upload
+your completed assignment to that repository. You may still use a gatech repository as outlined in this assignment, however it does not 
+satisfy the requirement for storing your completed assignments in the private assigned assignment repository. 
 
 <a name="fork-instructions"/></a>
 ## Instructions to create a private forked repository for assignments
 
-The assignments you would be working on throughout this semester will potentially require multiple revisions. A good way to track these revisions is by using your own private repo to backup your assignments at various stages of completion. Please remember that your assignment repository should be private and only accessible to yourself so that you do not accidentally violate the OSI policy.<br>
+The assignments you will be working on throughout this semester will potentially require multiple revisions. A good way to track these revisions is by using your own private repo to backup your assignments at various stages of completion. Please remember that your assignment repository should be private and only accessible to yourself so that you do not accidentally violate the OSI policy.<br>
 
 You can use the following steps to create a private repository for assignment 0. Please replace the A0 url with the future assignments' URL to repeat this for the future assignments.<br>
 
@@ -58,35 +63,8 @@ If you do not specify the remote, it will default to the origin (your repo)
 
 * If you are scared of pushing to upstream you can disable pushing to upstream using<br> ``git remote set-url --push upstream PUSH_DISABLED``
 
-<a name="conda"/></a>
-## Conda
+> **Note:** If you are on Windows, students in the past have commonly reported an error during package installation that resembles the error in this [Github post](https://github.com/pytorch/pytorch/issues/34798). To fix this issue, head over to the [PyTorch site](https://pytorch.org) and follow the instructions to install torch manually in `ai_env`. If this does not work, you may also instead try running `conda install -c ankurankan pgmpy=0.1.10`. After trying one of the previous suggestions and getting a successful install, try `pip install -r requirements.txt` again.
 
-![Conda Logo](https://conda.io/en/latest/_images/conda_logo.svg)
-
-Conda is an open source package and environment management system. Conda quickly installs, runs and updates packages/libraries and easily creates, saves, loads, and switches between environments on your local computer.
-
-Please download [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and install it on your local machine. Although we require Python 3.7 for this course, you should install the version of Miniconda for any Python 3 version (e.g. Python 3.x). You can override this default by specifying the python version as 3.7 when creating the environment you will be working in for this course. You can access conda via the console to make sure it's properly installed. For instance, you can run `conda -V` to display the version.
-
-On Windows, to access `conda` via the console please use "Anaconda Prompt" or "Anaconda Powershell Prompt" instead of "Command Prompt".
-
-<a name="env"/></a>
-## Environment
-
-Environments are used to keep different python versions and packages isolated from each other, generally each project/application will have an independent python environment. For example, we will be using Python 3.7 and packages like numpy, networkx etc, and we want them to be isolated from any other python projects you might have. 
-
-To create a new environment simply run:
-
-```
-conda create --name ai_env python=3.7 -y
-```
-
-Once it's created you can activate it by running:
-
-```
-conda activate ai_env
-```
-
-The environment is not attached to any specific folder, and you can freely navigate to different directories while it's activated. If you want to change the environment you can deactivate it using `conda deactivate` and then activate another env. To see the list of all environments you have on your machine you can run `conda env list`.
 
 <a name="pkg"/></a>
 ## Packages
