@@ -127,5 +127,5 @@ This should automatically open the `notebook.ipynb` as a Jupyter Notebook. If it
 Assignment 0
 ---------------------------------------------------------
 
-Your first assignment in this course is to setup your Python environment following the above instructions and then follow the tutorial in the provided Jupyter Notebook. Upon completion of the tutorial, you will have generated a `submission.py` file which you will then upload to [Gradescope](https://www.gradescope.com). This submission is worth **1 point of your final grade**. More details and instructions can be found in the provided Jupyter notebook. Good luck!
+Your first assignment in this course is to setup your Python environment following the above instructions and then follow the tutorial in the provided Jupyter Notebook. Upon completion of the tutorial, you will upload some Python files to [Gradescope](https://www.gradescope.com). This submission is worth **1 point of your final grade**. More details and instructions can be found in the provided Jupyter notebook. Good luck!
 
