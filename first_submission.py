@@ -5,8 +5,8 @@
 
 # DO NOT ADD OR REMOVE ANY IMPORTS FROM THIS FILE
 
-def return_gtusername():
+def return_gtusername() -> str:
     """Returns student GT username"""
     # TODO return your GT username as a string
-    # For example: gburdell3
+    # For example: "gburdell3"
     return None
