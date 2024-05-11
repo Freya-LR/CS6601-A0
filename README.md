@@ -1,8 +1,8 @@
 # Assignment 0 - Python/Git/Jupyter/Gradescope
 
-This assignment is designed to help you get comfortable with your local python environment, Git, introduce you to jupyter notebooks, provide a refresher on the python language, and introduce you to Gradescope. After following this you will proceed with learning about jupyter notebooks in the `notebook.ipynb` (where you will make your first graded submission!). Let's get started!
+This assignment is designed to help you get comfortable with your local python environment, Git, introduce you to jupyter notebooks, provide a refresher on the Python language, and introduce you to Gradescope. After following the setup process in this README, you will follow the instructions in `notebook.ipynb` to make your first graded submission! Let's get started!
 
-If you have not setup your Python environment,
+If you have not setup your Python environment yet,
 
 #### STOP!
 
@@ -52,6 +52,7 @@ git clone --bare https://github.gatech.edu/omscs6601/assignment_0.git
 ```
 cd assignment_0.git
 git push --mirror https://github.gatech.edu/gburdell3/cs6601_a0
+cd ..
 ```
 
 4. You can now delete the `assignment_0.git` directory from your local files if you wish (you will no longer need it).
@@ -124,8 +125,9 @@ Sometimes the assignment repositories will come with a Jupyter Notebook which wi
 
 This should automatically open the `notebook.ipynb` as a Jupyter Notebook. If it doesn't automatically open, you can access the Jupyter Notebook at [http://localhost:8888](http://localhost:8888/) in your browser.
 
-Assignment 0
----------------------------------------------------------
+<a name="summary"/></a>
 
-Your first assignment in this course is to setup your Python environment following the above instructions and then follow the tutorial in the provided Jupyter Notebook. Upon completion of the tutorial, you will upload some Python files to [Gradescope](https://www.gradescope.com). This submission is worth **1 point of your final grade**. More details and instructions can be found in the provided Jupyter notebook. Good luck!
+## Assignment 0
+
+Your first assignment in this course is to setup your Python environment following the above instructions and then to follow the tutorial in the provided Jupyter Notebook. Upon completion of the tutorial, you will upload two Python files (`first_submission.py` and `priority_queue.py`) to [Gradescope](https://www.gradescope.com). This submission is worth **2 points of your final grade**. More details and instructions can be found in the provided Jupyter notebook. Good luck!
 
