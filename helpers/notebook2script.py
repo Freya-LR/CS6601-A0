@@ -27,7 +27,7 @@ def notebook2scriptSingle(fname):
     # remove trailing spaces
     module = re.sub(r' +$', '', module, flags=re.MULTILINE)
     output_path = fname_out
-    open(output_path,'w').write(module[:-2])
+    open(output_path,'w',encoding="utf-8").write(module[:-2])
     print(f"Converted {fname} to {output_path}")
 
 if __name__ == '__main__':
