@@ -1,4 +1,10 @@
-# Assignment 0 - Python/Git/Jupyter/Gradescope
+# Summer 2024 - CS6601 - Assignment 0
+
+## Instructor: Dr. Rodrigo Borela Valente
+
+## Deadline: <font color = 'red'>Sunday, May 19th, 7:59 am EDT</font>
+
+#### Released: Monday, May 13th, 8:00 am EDT
 
 This assignment is designed to help you get comfortable with your local python environment, Git, introduce you to jupyter notebooks, provide a refresher on the Python language, and introduce you to Gradescope. After following the setup process in this README, you will follow the instructions in `notebook.ipynb` to make your first graded submission! Let's get started!
 
@@ -130,4 +136,6 @@ This should automatically open the `notebook.ipynb` as a Jupyter Notebook. If it
 ## Assignment 0
 
 Your first assignment in this course is to setup your Python environment following the above instructions and then to follow the tutorial in the provided Jupyter Notebook. Upon completion of the tutorial, you will upload two Python files (`first_submission.py` and `priority_queue.py`) to [Gradescope](https://www.gradescope.com). This submission is worth **2 points of your final grade**. More details and instructions can be found in the provided Jupyter notebook. Good luck!
+
+**Note:** It is EXTREMELY IMPORTANT that you submit this assignment before the deadline as completion of the assignment is necessary for us to release the remaining course assignments to you. Please submit the first task at a minimum (it takes minimal effort) as soon as you have everything set up.
 
