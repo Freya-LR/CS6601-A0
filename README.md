@@ -14,7 +14,7 @@ If you have not setup your Python environment yet,
 
 Complete the environment setup by following the instructions found at https://github.gatech.edu/omscs6601/env_setup. Then return here.
 
-A video demonstration of the instructions below can be found [here](https://www.youtube.com).
+A video demonstration of the instructions below can be found [here](https://youtu.be/53tSkbbwy0k).
 
 ### Table of Contents
 - [Get repository](#repo)
