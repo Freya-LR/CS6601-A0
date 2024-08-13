@@ -2,9 +2,9 @@
 
 ## Instructor: Dr. Thomas Ploetz
 
-## Deadline: <font color = 'red'>Sunday, May 19th, 7:59 am EDT</font>
+## Deadline: <font color = 'red'>Sunday, May 25th, 3:59 pm EDT</font>
 
-#### Released: Monday, May 13th, 8:00 am EDT
+#### Released: Monday, Aug 19th, 7:59 am EDT
 
 This assignment is designed to help you get comfortable with your local python environment, Git, introduce you to jupyter notebooks, provide a refresher on the Python language, and introduce you to Gradescope. After following the setup process in this README, you will follow the instructions in `notebook.ipynb` to make your first graded submission! Let's get started!
 
