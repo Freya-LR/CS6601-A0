@@ -1,6 +1,6 @@
-# Summer 2024 - CS6601 - Assignment 0
+# Fall 2024 - CS6601 - Assignment 0
 
-## Instructor: Dr. Rodrigo Borela Valente
+## Instructor: Dr. Thomas Ploetz
 
 ## Deadline: <font color = 'red'>Sunday, May 19th, 7:59 am EDT</font>
 
