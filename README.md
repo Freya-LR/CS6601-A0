@@ -2,7 +2,7 @@
 
 ## Instructor: Dr. Thomas Ploetz
 
-## Deadline: <font color = 'red'>Sunday, May 25th, 3:59 pm EDT</font>
+## Deadline: <font color = 'red'>Sunday, Aug 25th, 3:59 pm EDT</font>
 
 #### Released: Monday, Aug 19th, 7:59 am EDT
 
