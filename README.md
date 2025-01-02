@@ -1,10 +1,10 @@
-# Fall 2024 - CS6601 - Assignment 0
+# Spring 2025 - CS6601 - Assignment 0
 
-## Instructor: Dr. Thomas Ploetz
+## Instructor: Dr. Thad Starner
 
-## Deadline: <font color = 'red'>Sunday, Aug 25th, 3:59 pm EDT</font>
+## Deadline: <font color = 'red'>Monday, Jan 13, 7:59 am EDT</font>
 
-#### Released: Monday, Aug 19th, 7:59 am EDT
+#### Released: Monday, Jan 6th, 7:59 am EDT
 
 This assignment is designed to help you get comfortable with your local python environment, Git, introduce you to jupyter notebooks, provide a refresher on the Python language, and introduce you to Gradescope. After following the setup process in this README, you will follow the instructions in `notebook.ipynb` to make your first graded submission! Let's get started!
 
