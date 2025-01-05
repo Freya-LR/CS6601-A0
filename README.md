@@ -2,9 +2,9 @@
 
 ## Instructor: Dr. Thad Starner
 
-## Deadline: <font color = 'red'>Monday, Jan 13, 7:59 am EDT</font>
+## Deadline: <font color = 'red'>Sunday, Jan 12th, 3:59 pm EST</font>
 
-#### Released: Monday, Jan 6th, 7:59 am EDT
+#### Released: Monday, Jan 6th, 7:59 am EST
 
 This assignment is designed to help you get comfortable with your local python environment, Git, introduce you to jupyter notebooks, provide a refresher on the Python language, and introduce you to Gradescope. After following the setup process in this README, you will follow the instructions in `notebook.ipynb` to make your first graded submission! Let's get started!
 
